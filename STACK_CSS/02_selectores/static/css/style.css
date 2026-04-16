@@ -1,0 +1,44 @@
+/* Seleccion a traves de etiquetas */
+h1 {
+    color: darksalmon;
+}
+
+/* seleccion a traves de clases */
+.rojo {
+    color: red;
+}
+
+/* seleccion a traves de ID (#)*/
+#beige {
+    color: beige;
+}
+
+h1 {
+    color: royalblue;
+}
+
+p {
+    text-align: right;
+}
+
+.is-centered {
+    text-align: center;
+}
+
+.is-orange {
+    color: darkorange;
+}
+
+#container {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
