@@ -1,0 +1,60 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.centrado{
+    text-align: center;
+}
+.encabezado{
+    padding: 40px;
+}
+.centrado a{
+    font-weight: bold;
+}
+.container{
+    width: 935px;
+    margin: 0 auto;
+}
+.encabezado_caja{
+padding:20px;
+color: white;
+}
+
+.cuerpo_caja{
+    padding: 20px;
+}
+.cuerpo_caja p{
+margin-bottom: 20px;
+}
+.caja{
+    display: inline-block;
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid 1px purple;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+                  
+
+.azul{
+    background-color:#008DD2 ;
+}
+.rojo{
+    background-color:#EE433A ;
+}
+.verde{
+    background-color:#00C56A ;
+}
+.amarillo{
+    background-color: rgb(214, 214, 1);
+}
+.morado{
+    background-color: purple;
+}
+.celeste{
+    background-color: lightblue;
+}
