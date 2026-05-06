@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;
+    padding: 20px;
+}
+.boton_redondeado {
+    padding: 10px 40px;
+    border-radius: 30px; 
+}
