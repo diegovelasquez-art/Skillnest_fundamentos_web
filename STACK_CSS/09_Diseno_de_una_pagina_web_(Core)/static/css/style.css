@@ -6,28 +6,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
     background-color: rgb(255, 255, 255);
 }
-/* HEADER */
 .header{
     background-color: #173353;
     color: white;
-    padding-top: 15px;
+    padding-top: 25px;
     text-align: center;
 }
 .menu{
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: #204875;
     padding: 20px;
 }
 .boton{
     text-decoration: none;
-    color: white;
-    padding: 10px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 .parrafo{
@@ -37,49 +36,42 @@ body{
 .contenedor_principal{
     padding: 20px 100px;
 }
-.super_contenedor{
+.cuadro{
     background-color: rgb(255, 255, 255);
-    padding:35px;
-    margin-top: 15px;
+    padding:25px;
+    margin-top: 25px;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgb(204, 204, 204);
+    box-shadow: 5px 5px 15px rgb(121, 121, 121);
 }
-.intro{
+.presentacion{
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     background-color: #204875;
     color: white;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
-.intro h2{
-    margin-bottom: 15px;
+.presentacion h2{
+    margin-bottom: 25px;
 }
 
 .bloque{
     text-align: center;
     display: inline-block;
-    background-color: #00A4DE;
+    background-color: #00A4D4;
     color: white;
 
-    width: 290px;
-    height: 180px;
+    width: 300px;
+    height: 170px;
 
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 15px;
     margin-top: 30px;
 
     border-radius: 5px;
 }
-.bloque .subtitulo{
+.bloque .titulo{
     padding: 0;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
-}
-/* FOOTER */
-.footer{
-    background-color: rgb(117, 95, 138);
-    color: white;
-    text-align: center;
-    padding: 15px;
 }
