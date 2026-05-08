@@ -5,11 +5,30 @@
 }
 .container {
     text-align: center;
-    margin: 0 auto;
-    width: 900px;
-    padding: 20px;
+    padding: 30px;
 }
-.boton_redondeado {
-    padding: 10px 40px;
-    border-radius: 30px; 
+.boton_buscar {
+    margin:auto;
+    padding: 5px 25px;
+    border: solid 2px black;
+   border-radius: 15px;
+   display: block;
+   margin-bottom: 10px;
+}
+.boton_añadir {
+    margin: auto;
+    display: block;
+    background-color: orange;
+    padding: 10px 15px;
+   border-radius: 50px;
+   margin-bottom: 10px;
+}
+.boton_crear {
+    margin: auto;
+    display: block;
+    padding: 10px 25px;
+    border: none;
+    background-color: blue;
+    color:white;
+    box-shadow: 8px 8px 8px black;
 }
