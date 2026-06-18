@@ -10,8 +10,7 @@ body {
     font-family: sans-serif;
 }
 
-/* ENCABEZADO */
-.header {
+.cabeza {
     background-color: green;
     color: white;
     text-align: center;
@@ -25,11 +24,11 @@ body {
     font-weight: 500;
 }
 
-.contenedor_principal {
+.principal_container {
     width: 100%;
 }
 
-.barra_lateral {
+.lateral_bar {
     display: inline-block;
     width: 26%;
     height: 400px;
@@ -39,7 +38,7 @@ body {
     text-align: center;
 }
 
-.boton-amarillo {
+.boton-yellow {
     display: inline-block;
     background-color: yellow;
     color: rgba(0, 0, 0, 0.651);
@@ -50,7 +49,7 @@ body {
     border-radius: 25px;
 }
 
-.contenido {
+.content {
     display: inline-block;
     width: 69%;
     margin-left: 4%;
@@ -58,13 +57,13 @@ body {
     vertical-align: top;
 }
 
-.caja-roja {
+.caja-red {
     background-color: red;
     width: 100%;
     padding: 20px;
 }
 
-.cuadrado-amarillo {
+.cuadrado-yellow {
     vertical-align: top;
     display: inline-block;
     background-color: yellow;
@@ -73,7 +72,7 @@ body {
     margin-top: 0 1%;
 }
 
-.caja-morada {
+.caja-purple {
     background-color: purple;
     text-align: center;
     padding: 30px 0;
@@ -82,7 +81,7 @@ body {
     font-size: 16px;
 }
 
-.boton-saber-mas {
+.boton-conocer-mas {
     display: inline-block;
     background-color: #e0e0e0;
     border: none;
@@ -92,18 +91,18 @@ body {
     border-radius: 25px;
 }
 
-.lineas{
+.lines{
     margin-top: 30px;
     padding-left: 15px;
 }
 
-.linea {
+.line {
     background-color: #bcb9b9;
     height: 8px;
     margin-bottom: 16px;
     width: 95%;
 }
 
-.corta{
+.short{
     width: 75%;
 }

@@ -12,18 +12,18 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-.header{
+.cabeza{
     background-color: #173353;
     color: white;
     padding-top: 25px;
     text-align: center;
 }
-.menu{
+.container{
     margin-top: 30px;
     background-color: #204875;
     padding: 20px;
 }
-.boton{
+.btn{
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 20px;
@@ -33,17 +33,17 @@ body{
     padding: 30px;
 }
 
-.contenedor_principal{
+.principal-container{
     padding: 20px 100px;
 }
-.cuadro{
+.box{
     background-color: rgb(255, 255, 255);
     padding:25px;
     margin-top: 25px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(121, 121, 121);
 }
-.presentacion{
+.presentar{
     text-align: center;
     padding: 40px;
     background-color: #204875;
@@ -51,11 +51,11 @@ body{
     border-radius: 5px;
     margin-top: 25px;
 }
-.presentacion h2{
+.presentar h2{
     margin-bottom: 25px;
 }
 
-.bloque{
+.boxs{
     text-align: center;
     display: inline-block;
     background-color: #00A4D4;
@@ -70,7 +70,7 @@ body{
 
     border-radius: 5px;
 }
-.bloque .titulo{
+.boxs .tittle{
     padding: 0;
     margin-top: 20px;
     margin-bottom: 20px;
