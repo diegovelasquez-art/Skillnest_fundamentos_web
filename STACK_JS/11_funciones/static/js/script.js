@@ -52,3 +52,24 @@ function sumaResta(){
     let resultadoFinal = tresParametros(5, 10, 3);
     alert(`El resultado final es: ${resultadoFinal}`);
 }
+
+/*
+Crear una funcion reciba un parametro y permita a traves de un bucle contar hasta este
+ej: se recibe el numero 5 y muestra: 1 - 2 - 3 - 4 - 5
+*/
+
+function mostrarConteo() {
+    let parametro = parseInt(prompt(`Ingrese el limite del contador`));
+    if (parametro <=100){
+    resultado = contadorNumeros(parametro);
+    alert(resultado.join(" - "))
+    }
+}
+function contadorNumeros(a){
+    let numeros = []
+    for(let i = 0; i <a; i++){
+        numeros.push(i)
+    }
+    return numeros;
+}
+
