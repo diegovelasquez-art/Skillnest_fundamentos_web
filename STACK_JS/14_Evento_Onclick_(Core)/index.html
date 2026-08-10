@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick (Core)</title>
+    <meta name="author" content="Diego Velásquez">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Social Blog</div>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar publicaciones..." class="barra-buscar">
+        </div>
+        <button id="btn-login" class="inicio" onclick="cambiarSesion()">Iniciar sesión</button>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="mensajes">
+
+            <div class="tarjeta">
+                <h2 class="tarjeta-titulo">Fundamentos de JavaScript</h2>
+                <p class="autor"><strong>Publicado por:</strong> Carlos Pérez</p>
+                <p class="fecha"><strong>Fecha:</strong> 02/03/2025</p>
+                <p class="tarjeta-texto">
+                    JavaScript es un lenguaje de programación que se utiliza en el desarrollo web.
+                    Aprende los conceptos básicos para comenzar a programar.
+                </p>
+                <button class="boton-like" onclick="aumentarLikes(this)"><span class="likes">12</span> Me gusta</button>
+            </div>
+
+            <div class="tarjeta">
+                <h2 class="tarjeta-titulo">Aprende a diseñar con CSS</h2>
+                <p class="autor"><strong>Publicado por:</strong> Ana Gómez</p>
+                <p class="fecha"><strong>Fecha:</strong> 01/03/2025</p>
+                <p class="tarjeta-texto">
+                    El diseño web es una parte fundamental en el desarrollo de aplicaciones web.
+                    Conoce las propiedades de CSS para crear interfaces atractivas.
+                </p>
+                <button class="boton-like" onclick="aumentarLikes(this)"><span class="likes">30</span> Me gusta</button>
+            </div>
+
+        </section>
+
+        <div class="barra-lado">
+            <div class="tarjeta barra-ladito">
+                <h2>¡Bienvenido!</h2>
+                <p>Explora nuevas publicaciones y conecta con otros usuarios.</p>
+                <button id="btn-perfil" class="boton-perfil" onclick="mostrarAlerta()">Ver perfil</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
