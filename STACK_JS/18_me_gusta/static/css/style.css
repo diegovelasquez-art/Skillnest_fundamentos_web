@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+.navbar {
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 30px auto;
+    gap: 30px;
+    padding: 0 15px;
+}
+
+
+.profile-card {
+    background: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    height: fit-content;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.btn-profile {
+    background-color: #31a2c5;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.feed {
+    flex: 1;
+}
+
+.feed h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+
+.post {
+    background-color: #f2f2f2;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.post-header h3 {
+    font-size: 1.1rem;
+}
+
+.like-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+}
+
+.btn-like {
+    background-color: #f7ca55;
+    border: 1px solid #d4a017;
+    padding: 4px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-like:hover {
+    background-color: #ebb93c;
+}
+
+.post-content {
+    font-size: 0.95rem;
+    color: #222;
+}
+
+.post-content a {
+    color: #4b2bb8;
+    text-decoration: underline;
+}
