@@ -10,7 +10,7 @@ body {
 }
 
 
-.navbar {
+.barra-navegacion {
     background-color: #404040;
     color: white;
     text-align: center;
@@ -18,7 +18,7 @@ body {
 }
 
 
-.container {
+.contenedor {
     display: flex;
     max-width: 900px;
     margin: 30px auto;
@@ -27,7 +27,7 @@ body {
 }
 
 
-.profile-card {
+.tarjeta-perfil {
     background: white;
     border: 1px solid #333;
     border-radius: 8px;
@@ -37,7 +37,7 @@ body {
     height: fit-content;
 }
 
-.avatar {
+.foto-perfil {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -45,12 +45,12 @@ body {
     margin-bottom: 10px;
 }
 
-.profile-card h2 {
+.tarjeta-perfil h2 {
     font-size: 1.2rem;
     margin-bottom: 12px;
 }
 
-.btn-profile {
+.btn-perfil {
     background-color: #31a2c5;
     color: white;
     border: none;
@@ -60,17 +60,17 @@ body {
 }
 
 
-.feed {
+.muro {
     flex: 1;
 }
 
-.feed h2 {
+.muro h2 {
     font-size: 1.4rem;
     margin-bottom: 15px;
 }
 
 
-.post {
+.publicacion {
     background-color: #f2f2f2;
     border: 1px solid #333;
     border-radius: 8px;
@@ -78,25 +78,25 @@ body {
     margin-bottom: 15px;
 }
 
-.post-header {
+.encabezado-publicacion {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.post-header h3 {
+.encabezado-publicacion h3 {
     font-size: 1.1rem;
 }
 
-.like-container {
+.contenedor-me-gusta {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 0.95rem;
 }
 
-.btn-like {
+.btn-me-gusta {
     background-color: #f7ca55;
     border: 1px solid #d4a017;
     padding: 4px 14px;
@@ -105,16 +105,16 @@ body {
     font-weight: bold;
 }
 
-.btn-like:hover {
+.btn-me-gusta:hover {
     background-color: #ebb93c;
 }
 
-.post-content {
+.contenido-publicacion {
     font-size: 0.95rem;
     color: #222;
 }
 
-.post-content a {
+.contenido-publicacion a {
     color: #4b2bb8;
     text-decoration: underline;
 }
