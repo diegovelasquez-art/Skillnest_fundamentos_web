@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Diego Velásquez">
+    <title>TacoPalace</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="static/images/logo.png" alt="Logo TacoPalace" class="icono-logo">
+                <div class="texto-logo"><span>Taco</span>Palace</div>
+            </div>
+
+            <div class="encabezado-derecho">
+                <div class="contenedor-login">
+                    <input type="text" id="campoCorreo" placeholder="email">
+                    <button id="botonLogin">Login</button>
+                </div>
+                <div class="carrito">
+                    <img src="static/images/carrito.png" alt="Carrito de compras" class="icono-carrito">
+                    <span id="contadorCarrito">0</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="barra-categorias">
+            <div class="tarjeta-categoria">
+                <img src="static/images/enchiladas.jpg" alt="Enchiladas">
+                <span>Enchiladas</span>
+            </div>
+            <div class="tarjeta-categoria">
+                <img src="static/images/tacos.jpg" alt="Tacos">
+                <span>Tacos</span>
+            </div>
+            <div class="tarjeta-categoria">
+                <img src="static/images/flautas.jpg" alt="Flautas">
+                <span>Flautas</span>
+            </div>
+            <div class="tarjeta-categoria">
+                <img src="static/images/gorditas.jpg" alt="Gorditas">
+                <span>Gorditas</span>
+            </div>
+            <div class="tarjeta-categoria">
+                <img src="static/images/tostadas.jpg" alt="Tostadas">
+                <span>Tostadas</span>
+            </div>
+            <div class="tarjeta-categoria">
+                <img src="static/images/enfrijoladas.jpg" alt="Enfrijoladas">
+                <span>Enfrijoladas</span>
+            </div>
+        </section>
+
+        <main class="contenido-principal">
+            <section class="banner-principal">
+                <div class="texto-principal">
+                    <h2>La mejor variedad en platillos de comida mexicana</h2>
+                    <p>Contamos con <span class="destacado">servicio a domicilio</span></p>
+                </div>
+                <div class="caja-imagen-principal">
+                    <img id="imagenPrincipal" src="static/images/comida-mexicana.jpg" alt="Platillo Principal">
+                </div>
+            </section>
+
+            <aside class="barra-lateral">
+                <h3>Recomendados:</h3>
+
+                <div class="item-recomendado">
+                    <img src="static/images/orden-tacos.jpg" alt="Orden de Tacos">
+                    <div class="pie-item">
+                        <div class="info-item">
+                            <span class="titulo-item">Orden de Tacos</span>
+                            <a href="#" class="enlace-item">Ver Más...</a>
+                        </div>
+                        <button class="boton-agregar">+</button>
+                    </div>
+                </div>
+
+                <div class="item-recomendado">
+                    <img src="static/images/orden-flautas.jpg" alt="Orden de Flautas">
+                    <div class="pie-item">
+                        <div class="info-item">
+                            <span class="titulo-item">Orden de Flautas</span>
+                            <a href="#" class="enlace-item">Ver Más...</a>
+                        </div>
+                        <button class="boton-agregar">+</button>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
